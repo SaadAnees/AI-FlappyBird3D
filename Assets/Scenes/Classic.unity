@@ -122,11 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &219813284 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2941400123479678674, guid: d50b14ecd2696e1449d693945424174e, type: 3}
-  m_PrefabInstance: {fileID: 3630731800267932853}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &334615146
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,7 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 575f6a6958e8b82468dd97acb15d02db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bird: {fileID: 219813284}
+  bird: {fileID: 0}
   offsetX: -5
 --- !u!114 &510656657
 MonoBehaviour:
@@ -936,7 +931,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1001 &3630731800267932853
+--- !u!1001 &2846064110082356125
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -944,55 +939,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2565401967802942568, guid: d50b14ecd2696e1449d693945424174e, type: 3}
-      propertyPath: m_Name
-      value: Bird
-      objectReference: {fileID: 0}
-    - target: {fileID: 2941400123479678674, guid: d50b14ecd2696e1449d693945424174e, type: 3}
+    - target: {fileID: 780276746942967245, guid: 7692527c9840c24418b90a5f1c51f85b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.44
+      value: -2.4413176
       objectReference: {fileID: 0}
-    - target: {fileID: 2941400123479678674, guid: d50b14ecd2696e1449d693945424174e, type: 3}
+    - target: {fileID: 780276746942967245, guid: 7692527c9840c24418b90a5f1c51f85b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 4.045
       objectReference: {fileID: 0}
-    - target: {fileID: 2941400123479678674, guid: d50b14ecd2696e1449d693945424174e, type: 3}
+    - target: {fileID: 780276746942967245, guid: 7692527c9840c24418b90a5f1c51f85b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.02720486
       objectReference: {fileID: 0}
-    - target: {fileID: 2941400123479678674, guid: d50b14ecd2696e1449d693945424174e, type: 3}
+    - target: {fileID: 780276746942967245, guid: 7692527c9840c24418b90a5f1c51f85b, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2941400123479678674, guid: d50b14ecd2696e1449d693945424174e, type: 3}
+    - target: {fileID: 780276746942967245, guid: 7692527c9840c24418b90a5f1c51f85b, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2941400123479678674, guid: d50b14ecd2696e1449d693945424174e, type: 3}
+    - target: {fileID: 780276746942967245, guid: 7692527c9840c24418b90a5f1c51f85b, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2941400123479678674, guid: d50b14ecd2696e1449d693945424174e, type: 3}
+    - target: {fileID: 780276746942967245, guid: 7692527c9840c24418b90a5f1c51f85b, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2941400123479678674, guid: d50b14ecd2696e1449d693945424174e, type: 3}
+    - target: {fileID: 780276746942967245, guid: 7692527c9840c24418b90a5f1c51f85b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2941400123479678674, guid: d50b14ecd2696e1449d693945424174e, type: 3}
+    - target: {fileID: 780276746942967245, guid: 7692527c9840c24418b90a5f1c51f85b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2941400123479678674, guid: d50b14ecd2696e1449d693945424174e, type: 3}
+    - target: {fileID: 780276746942967245, guid: 7692527c9840c24418b90a5f1c51f85b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5714117806672834005, guid: 7692527c9840c24418b90a5f1c51f85b, type: 3}
+      propertyPath: m_Name
+      value: Bird
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d50b14ecd2696e1449d693945424174e, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 7692527c9840c24418b90a5f1c51f85b, type: 3}
 --- !u!1001 &7403088548387340113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1119,10 +1114,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 510656655}
-  - {fileID: 3630731800267932853}
   - {fileID: 571858516}
   - {fileID: 1565152990}
   - {fileID: 1077259830}
   - {fileID: 334615148}
   - {fileID: 1291086444}
   - {fileID: 503167179}
+  - {fileID: 2846064110082356125}
